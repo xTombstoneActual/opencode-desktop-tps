@@ -92,6 +92,13 @@ tracker.
 - The badge appears once tokens start flowing; a step that is still waiting for
   its first token shows nothing.
 
+## How this was built
+
+Built with AI assistance: an AI coding agent wrote most of the code, with a
+human directing the design, testing it against real sessions and reviewing the
+changes before publishing. Treat it accordingly — the measurements are simple
+and the source is small enough to read end to end in a few minutes.
+
 ## License
 
 [MIT](LICENSE)
