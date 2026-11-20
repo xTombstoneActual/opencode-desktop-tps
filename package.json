@@ -1,0 +1,42 @@
+{
+  "name": "opencode-desktop-tps",
+  "version": "0.1.0",
+  "description": "Live tokens-per-second badge for OpenCode Desktop sessions",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "tps",
+    "tokens-per-second",
+    "desktop",
+    "solid"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xTombstoneActual/opencode-desktop-tps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xTombstoneActual/opencode-desktop-tps/issues"
+  },
+  "homepage": "https://github.com/xTombstoneActual/opencode-desktop-tps#readme",
+  "exports": {
+    "./gui-experimental": "./dist/gui-experimental.cjs"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "typecheck": "tsc --noEmit",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@opencode/plugin": "latest"
+  },
+  "devDependencies": {
+    "solid-js": "^1.9.5",
+    "typescript": "^5.8.0",
+    "vite": "^7.0.0",
+    "vite-plugin-solid": "^2.11.0"
+  }
+}
